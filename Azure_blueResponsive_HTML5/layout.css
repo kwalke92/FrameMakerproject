@@ -486,3 +486,14 @@ body.media-desktop div.social_buttons { border-width: .1em !important; }
 body.media-desktop div.social_buttons.opened div.fb-button, body.media-desktop div.social_buttons.opened div.twitter-button { padding-top: .1em; }
 
 /*# sourceMappingURL=layout.css.map */
+
+
+/* Hides the sidebar and resizer */
+.toc-holder,
+.sidebarsizer {
+  display: none !important;
+}
+
+.header {
+  display: none !important;
+}
