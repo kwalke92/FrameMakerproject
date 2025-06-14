@@ -528,3 +528,32 @@ body {
   padding-left: 0 !important;
 }
 
+/* Remove toolbar/tab bar buttons */
+.rh-toolbar,
+.tabbar,
+.tab-button,
+#contentTabbarContainer,
+#tabbar,
+#tabBarContainer {
+  display: none !important;
+}
+
+/* Remove icons specifically inside the tab or toolbar area */
+button[data-click],
+.tab-button *,
+.rh-toolbar * {
+  display: none !important;
+}
+
+/* Hide icons that may have been generated in nav bars */
+.rh-icons,
+.rh-icon,
+.rh-icon-button,
+button[aria-label*="TOC"],
+button[aria-label*="Search"],
+button[aria-label*="Filter"],
+button[title*="Search"],
+button[title*="Filter"] {
+  display: none !important;
+}
+
