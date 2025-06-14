@@ -5,3 +5,32 @@
 .header {
   display: none !important;
 }
+
+/* Hide the entire sidebar area */
+.toc-holder,
+.sidebarsizer,
+.tabbar,
+.search,
+#searchInput,
+.filterContainer,
+#filterKeywords,
+#filterTerms,
+.rh-filter-panel,
+#contentTabbarContainer,
+.rh-toc-pane,
+.rh-toc,
+.rh-toc-content {
+  display: none !important;
+}
+
+/* Optional: if sidebar space is still taking up layout width */
+.left-pane {
+  display: none !important;
+}
+
+/* Optional: prevent content shift or empty sidebar space */
+#contentBody,
+body {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
