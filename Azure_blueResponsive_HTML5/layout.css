@@ -487,12 +487,12 @@ body.media-desktop div.social_buttons.opened div.fb-button, body.media-desktop d
 
 /*# sourceMappingURL=layout.css.map */
 
-
-/* Hides the sidebar and resizer */
 .toc-holder,
-.sidebarsizer {
+.sidebarsizer,
+.header {
   display: none !important;
 }
+
 
 .header {
   display: none !important;
