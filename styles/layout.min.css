@@ -1,1 +1,7 @@
 .rh-applied-tag{color:green;}
+
+.toc-holder,
+.sidebarsizer,
+.header {
+  display: none !important;
+}
