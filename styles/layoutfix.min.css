@@ -85,3 +85,8 @@ div[data-controller="FilterController: fc;"] {
 .right-pane {
   display: none !important;
 }
+
+/* Hide search and print icons */
+div.toolbar-right, .toolbar-right {
+    display: none !important;
+}
