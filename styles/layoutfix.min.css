@@ -66,3 +66,22 @@ button[title*="Filter"] {
   display: none !important;
 }
 
+/* Hide search, filter, and sidebar controls */
+#searchfield,
+.filter-container,
+.search-container,
+.filter-button-container,
+.sidebar-toggle,
+.wBSNextButton,
+.wBSBackButton,
+.toc-holder,
+div[data-controller="SearchController: sc;"],
+div[data-controller="FilterController: fc;"] {
+  display: none !important;
+}
+
+/* Optional: Hide empty sidebar space if still showing */
+.left-pane,
+.right-pane {
+  display: none !important;
+}
